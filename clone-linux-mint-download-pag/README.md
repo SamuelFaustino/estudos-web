@@ -1,4 +1,4 @@
-#Exercícios HTML & CSS
-##Prática de conceitos básicos
+# Exercícios HTML & CSS
+## Prática de conceitos básicos
 ---
 
