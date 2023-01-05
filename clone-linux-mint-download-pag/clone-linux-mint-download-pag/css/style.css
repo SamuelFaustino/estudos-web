@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+nav {
+    text-align: center;
+    align-items: center;   
+    border-bottom: 1px solid rgb(57, 156, 100);
+}
+
+header {
+    background: linear-gradient(150deg, #69B53F 20%, #2ab9a5 100%);
+    padding: 110px 0px 0px 0px ;
+    padding: 45px 0px 8px 0px;
+}
+
+#navbar {
+    display:flex;
+    margin: 0;
+    margin-left: 1170px;
+    position: absolute;
+    top: 13px;
+}
+
+#navbar a {
+    padding: 10px;
+}
+
+#header-logo {
+    position: absolute;
+    top: 0px;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+#header-menu {
+    color: #fff;
+    margin-left: 900px;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#btn-donate {
+    color: #000000;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 6%;
+}
+
+#header-menu li {
+    padding: 10px;
+    padding-bottom: 26px;
+}
+
+.download-dropdown {
+    background-color: none;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    border: none;    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 410px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    padding-top:  18px;
+    font-size: 12px;
+}
+
+.dropdown-cont a, span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+}
+
+.dropdown-cont a:hover {
+    color: #69B53F;
+}
+
+.dropdown:hover .dropdown-cont {
+    display: block;
+}
+
+.dropdown:hover .download-dropdown {
+    color: #000000;
+}
+
+h1 {
+    padding-top: 48px;
+    padding-bottom: 0;
+    margin-left: 12%;
+    color: #fff;
+    font-size: 55px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #353c42;
+    background-color: #ffffffe4;
+    
+}
+
+.ribbon {
+
+    margin-top: 25px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    border: 1px solid rgb(142, 141, 141);
+    border-style: dashed;
+    margin-right: 12%;
+    margin-left: 12%;   
+}
+
+.ribbon h3 {
+    font-size: 26px;
+    margin-bottom: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#btn-installation {
+    color: #fff;
+    border-radius: 5%;
+    padding: 15px;
+    display: inline-block;
+    margin-top: 22px;
+    background: linear-gradient(150deg, #69B53F 30%, #2ab9a5 100%);
+
+}
+
+#btn-installation:hover {
+    background: linear-gradient(150deg, #2ab9a5 16%, #69B53F 100%);
+    transition: 0.5s;
+}
+
+#main-cont {
+    margin-top: 50px;
+}
+
+#main-cont p {
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+
+main img {
+    margin-left: 12%; 
+}
+
+.flavors-cont {
+    padding-top: 38px;
+    margin-bottom: 110px;
+    margin-right: 12%;
+    margin-left: 52%;   
+}
+
+.pre-titulo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; 
+}
+
+#main-cont h2 {
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+.btn-download { 
+    background-color: rgba(0, 0, 0, 0.847);
+    padding: 10px;
+    border-radius: 5%;
+    color:#fff;
+}
+
+.btn-download:hover {
+    background-color: #000000;
+}
+
+.new-features {
+    color: rgb(3, 160, 3);
+    padding: 15px;
+}
+
+#mate {
+    background-color: rgb(240, 241, 241);
+    padding-top: 24px;
+    margin-left: 0; 
+}
+
+#mate .flavors-cont {
+    margin-left: 12%;
+    margin-bottom: 22px;
+    padding-bottom: 70px; 
+}
+
+#mate img {
+    margin-right: 14%;
+    margin-left: 0; 
+    margin-bottom: 0;
+    padding: 0px;
+}
+
+footer {   
+    padding: 0 12% 0 12%;
+    color: #fff;
+    background-color: #353c42;
+  
+}
+
+#footer-top  {
+    margin-left: 280px;
+    margin-bottom: 60px; 
+}
+
+#footer-top img {
+    padding: 0 15px 0 15px;
+}
+
+#footer-middle {
+    color: #dad7d7;
+    font-size: 14px;
+    display: flex;
+    margin-bottom: 65px;
+}
+
+#footer-middle p {
+    text-align: left;
+    line-height: 24px;
+    margin-left: 30px;  
+}
+
+.footer-links {
+    line-height: 32px;
+    margin: 0 60px 0 60px;
+    
+}
+
+.footer-links a:hover {
+    color: #69B53F;
+}
+
+#footer-middle img {
+    
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    
+}
+
+#copyright {
+    margin-bottom: -10%;
+    color: #dad7d7;
+    border-top: 1px solid rgba(0, 0, 0, 0.137);
+    line-height: 24px;
+    padding: 36px 0 35px 0;
+    font-size: 13px;
+
+}
